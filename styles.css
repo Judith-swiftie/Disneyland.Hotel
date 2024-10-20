@@ -510,6 +510,7 @@ nav {
     border-radius: 5px;
     box-shadow: 0 10px 29px -7px rgba(63,63,63,0.48);
     padding: 10px;
+    overflow: hidden;
 }
 
 .calendar-header {
@@ -535,8 +536,17 @@ nav {
     font-weight: bold;
     cursor: pointer;
     color: black;
+    min-width: 0; /* Permite que el contenido se ajuste al tamaño */
+    min-height: 50px; /* Altura mínima para los días */
+    box-sizing: border-box;
 }
-
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+    .calendar-day {
+        font-size: 14px; /* Ajusta el tamaño de fuente */
+        min-height: 40px; /* Altura mínima ajustada para pantallas pequeñas */
+    }
+    
 /* Colores por precio */
 .low-price {
     background-color: green;
