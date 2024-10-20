@@ -532,7 +532,7 @@ nav {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     color: black;
@@ -547,7 +547,7 @@ nav {
         min-height: 30px; /* Altura mínima ajustada para pantallas pequeñas */
     }
     .low-price, .medium-price, .high-price {
-        font-size: 9px; /* Tamaño de texto ajustado para móviles */
+        font-size: 7px; /* Tamaño de texto ajustado para móviles */
         min-height: 30px; /* Altura mínima para precios en móviles */
     }
     
@@ -558,7 +558,7 @@ nav {
     }
 
     .low-price, .medium-price, .high-price {
-        font-size: 12px; /* Tamaño de texto para precios en pantallas medianas */
+        font-size: 11px; /* Tamaño de texto para precios en pantallas medianas */
     }
     
 /* Colores por precio */
