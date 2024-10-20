@@ -532,7 +532,7 @@ nav {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     color: black;
@@ -545,6 +545,20 @@ nav {
     .calendar-day {
         font-size: 14px; /* Ajusta el tamaño de fuente */
         min-height: 40px; /* Altura mínima ajustada para pantallas pequeñas */
+    }
+    .low-price, .medium-price, .high-price {
+        font-size: 14px; /* Tamaño de texto ajustado para móviles */
+        min-height: 30px; /* Altura mínima para precios en móviles */
+    }
+    
+/* Media query para pantallas medianas */
+@media (min-width: 601px) and (max-width: 900px) {
+    .calendar-day {
+        font-size: 16px; /* Tamaño de texto para pantallas medianas */
+    }
+
+    .low-price, .medium-price, .high-price {
+        font-size: 16px; /* Tamaño de texto para precios en pantallas medianas */
     }
     
 /* Colores por precio */
