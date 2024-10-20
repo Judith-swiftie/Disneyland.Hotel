@@ -543,11 +543,11 @@ nav {
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
     .calendar-day {
-        font-size: 6px; /* Ajusta el tamaño de fuente */
-        min-height: 40px; /* Altura mínima ajustada para pantallas pequeñas */
+        font-size: 10px; /* Ajusta el tamaño de fuente */
+        min-height: 30px; /* Altura mínima ajustada para pantallas pequeñas */
     }
     .low-price, .medium-price, .high-price {
-        font-size: 14px; /* Tamaño de texto ajustado para móviles */
+        font-size: 9px; /* Tamaño de texto ajustado para móviles */
         min-height: 30px; /* Altura mínima para precios en móviles */
     }
     
@@ -558,7 +558,7 @@ nav {
     }
 
     .low-price, .medium-price, .high-price {
-        font-size: 16px; /* Tamaño de texto para precios en pantallas medianas */
+        font-size: 12px; /* Tamaño de texto para precios en pantallas medianas */
     }
     
 /* Colores por precio */
