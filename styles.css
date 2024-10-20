@@ -524,7 +524,7 @@ nav {
 .calendar-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr); /* Ajuste automático a 7 columnas */
-    gap: 7px; /* Espacio entre los días */
+    gap: 6px; /* Espacio entre los días */
     padding: 10px;
 }
 
