@@ -550,7 +550,7 @@ nav {
         font-size: 5px; /* Tamaño de texto ajustado para móviles */
         min-height: 30px; /* Altura mínima para precios en móviles */
     }
-    
+}
 /* Media query para pantallas medianas */
 @media (min-width: 601px) and (max-width: 900px) {
     .calendar-day {
@@ -560,7 +560,7 @@ nav {
     .low-price, .medium-price, .high-price {
         font-size: 9px; /* Tamaño de texto para precios en pantallas medianas */
     }
-    
+}
 
 /* Colores por precio */
 .low-price {
