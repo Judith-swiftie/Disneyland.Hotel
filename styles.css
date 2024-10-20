@@ -524,7 +524,7 @@ nav {
 .calendar-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr); /* Ajuste automático a 7 columnas */
-    gap: 10px; /* Espacio entre los días */
+    gap: 8px; /* Espacio entre los días */
     padding: 10px;
 }
 
@@ -543,7 +543,7 @@ nav {
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
     .calendar-day {
-        font-size: 9px; /* Ajusta el tamaño de fuente */
+        font-size: 6px; /* Ajusta el tamaño de fuente */
         min-height: 40px; /* Altura mínima ajustada para pantallas pequeñas */
     }
     .low-price, .medium-price, .high-price {
