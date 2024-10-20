@@ -543,7 +543,7 @@ nav {
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
     .calendar-day {
-        font-size: 14px; /* Ajusta el tamaño de fuente */
+        font-size: 9px; /* Ajusta el tamaño de fuente */
         min-height: 40px; /* Altura mínima ajustada para pantallas pequeñas */
     }
     .low-price, .medium-price, .high-price {
