@@ -524,7 +524,7 @@ nav {
 .calendar-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr); /* Ajuste automático a 7 columnas */
-    gap: 6px; /* Espacio entre los días */
+    gap: 5px; /* Espacio entre los días */
     padding: 10px;
 }
 
@@ -532,7 +532,7 @@ nav {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     cursor: pointer;
     color: black;
@@ -547,18 +547,18 @@ nav {
         min-height: 30px; /* Altura mínima ajustada para pantallas pequeñas */
     }
     .low-price, .medium-price, .high-price {
-        font-size: 7px; /* Tamaño de texto ajustado para móviles */
+        font-size: 6px; /* Tamaño de texto ajustado para móviles */
         min-height: 30px; /* Altura mínima para precios en móviles */
     }
     
 /* Media query para pantallas medianas */
 @media (min-width: 601px) and (max-width: 900px) {
     .calendar-day {
-        font-size: 16px; /* Tamaño de texto para pantallas medianas */
+        font-size: 12px; /* Tamaño de texto para pantallas medianas */
     }
 
     .low-price, .medium-price, .high-price {
-        font-size: 11px; /* Tamaño de texto para precios en pantallas medianas */
+        font-size: 10px; /* Tamaño de texto para precios en pantallas medianas */
     }
     
 /* Colores por precio */
